@@ -1,0 +1,17 @@
+valid:{'exs': 8069, 'lr': 7.5e-06, 'total_train_updates': 150959, 'gpu_mem_percent': 0.958, 'loss': 1168.0, 'token_acc': 0.5093, 'nll_loss': 2.326, 'ppl': 10.24}
+valid:
+    context_length  context_truncate  ctpb  ctps  exps   exs  gpu_mem  \
+             66.36          .0002556 67.35  2331 34.61 11735    .1712   
+    label_length  label_truncate  loss      lr  ltpb  ltps   ppl  token_acc  \
+           15.35        .0003409 1.464 7.5e-06 15.33 530.7 4.325      .7675   
+    token_em  total_train_updates   tpb  tps  
+       .2895              4565454 82.69 2862
+
+valid:
+    context_length  context_truncate  ctpb  ctps  exps   exs  gpu_mem  \
+             68.85           .001027 69.66  2394 34.37 11686    .1712   
+    label_length  label_truncate  loss      lr  ltpb  ltps   ppl  token_acc  \
+           15.92        .0006846 1.071 7.5e-06 15.88 545.9 2.918      .8510   
+    token_em  total_train_updates   tpb  tps  
+       .4169              8774924 85.54 2940
+
